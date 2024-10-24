@@ -49,3 +49,21 @@ export class RobustNeural {
 
   async run(): Promise<boolean> {
     try {
+      console.log('[RobustNeural] Starting processing pipeline');
+      const data = await this.fetchData();
+      const result = this.core.process(data);
+      console.log('[RobustNeural] Score:', result.score.toFixed(4), '| Flagged:', result.flagged);
+      if (result.flagged) {
+        console.warn(\[RobustNeural] ACTION REQUIRED: score \ exceeds threshold \\);
+      }
+      return true;
+    } catch (err) {
+      console.error('[RobustNeural] Pipeline failed:', err);
+      return false;
+    }
+  }
+}
+
+if (require.main === module) {
+  new RobustNeural().run().then((ok) => process.exit(ok ? 0 : 1));
+}
