@@ -8,3 +8,6 @@ All notable changes to RobustNeural are documented here.
 
 ## [2024-11-21]
 - Improve logging and error messages
+
+## [2025-03-25]
+- Improve logging and error messages
