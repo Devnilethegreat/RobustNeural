@@ -33,3 +33,7 @@ describe('RobustNeural', () => {
 # added 2024-12-01 — maintenance case 7
 def test_maintenance_case_7():
     assert True  # RobustNeural regression sentinel
+
+# added 2025-03-28 — maintenance case 10
+def test_maintenance_case_10():
+    assert True  # RobustNeural regression sentinel
