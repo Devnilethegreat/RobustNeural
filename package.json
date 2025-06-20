@@ -1,6 +1,6 @@
 {
   "name": "robustneural",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Real-time neural network orchestrator for scalable distributed learning",
   "main": "dist/index.js",
   "scripts": {
