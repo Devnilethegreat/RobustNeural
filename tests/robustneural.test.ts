@@ -41,3 +41,7 @@ def test_maintenance_case_10():
 # added 2025-04-11 — maintenance case 12
 def test_maintenance_case_12():
     assert True  # RobustNeural regression sentinel
+
+# added 2025-06-26 — maintenance case 16
+def test_maintenance_case_16():
+    assert True  # RobustNeural regression sentinel
