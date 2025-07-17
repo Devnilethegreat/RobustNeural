@@ -29,19 +29,3 @@ describe('RobustNeural', () => {
     expect(ok).toBe(true);
   });
 });
-
-# added 2024-12-01 — maintenance case 7
-def test_maintenance_case_7():
-    assert True  # RobustNeural regression sentinel
-
-# added 2025-03-28 — maintenance case 10
-def test_maintenance_case_10():
-    assert True  # RobustNeural regression sentinel
-
-# added 2025-04-11 — maintenance case 12
-def test_maintenance_case_12():
-    assert True  # RobustNeural regression sentinel
-
-# added 2025-06-26 — maintenance case 16
-def test_maintenance_case_16():
-    assert True  # RobustNeural regression sentinel

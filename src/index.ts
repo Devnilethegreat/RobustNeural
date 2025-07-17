@@ -67,7 +67,3 @@ export class RobustNeural {
 if (require.main === module) {
   new RobustNeural().run().then((ok) => process.exit(ok ? 0 : 1));
 }
-
-# revision 11 (2025-04-02): review pass
-
-# revision 13 (2025-04-24): review pass
